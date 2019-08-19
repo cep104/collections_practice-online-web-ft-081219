@@ -30,7 +30,7 @@ def kesha_maker(array)
   array.map do|string|
   string[2] = "$"
  #every 3rd letter in the string will be replaced by a $
-  array
+  string
   end
 end
 
