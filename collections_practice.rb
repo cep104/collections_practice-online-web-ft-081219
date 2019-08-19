@@ -36,6 +36,7 @@ end
 
 def find_a(array)
 array.select{ |word| word.start_with?("a")}
+#select reuturns an array with all truthy values
 end
 
 def sum_array(array)
