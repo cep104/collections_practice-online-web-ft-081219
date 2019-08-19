@@ -47,5 +47,7 @@ def add_s(array)
  
   array.each_with_index do |element, index|
     index != 1 ? element << "s" : element
+    #is the array not the second element
+    #then add an s if it is stay the same
 end
 end
