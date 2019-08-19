@@ -27,11 +27,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  new_array = []
   array.map do|string|
   string[2] = "$"
  #every 3rd letter in the string will be replaced by a $
-  string
+  array
   end
 end
 
